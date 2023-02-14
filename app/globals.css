@@ -182,7 +182,7 @@ footer {
   justify-content: flex-start;
   align-items: flex-start;
   font-size: 20px;
-  padding: 4vw;
+  padding: 2vw;
   background-image: linear-gradient(to right, rgba(86, 11, 173, 0.5), rgba(72, 12, 168, 0.5), rgba(58, 12, 163, 0.5), rgba(63, 55, 201, 0.5));
   text-decoration: none;
 }
