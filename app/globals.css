@@ -301,8 +301,16 @@ background-position:center;
   font-size: 3vw;
   color: #faebd7;
   text-shadow: 0 0 0 #faebd7;
-  -webkit-animation: loading 1s ease-in-out infinite alternate;
-  z-index: 4;
+  animation-name: loading;
+  animation-delay: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  -webkit-animation-name: loading;
+  -webkit-animation-delay: 5s;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
 }
 .main-paragraph {
   margin: 30px;
@@ -352,7 +360,7 @@ background-position:center;
   color: #b5179e;
   letter-spacing: 4px;
 }
-@-webkit-keyframes loading {
+@keyframes loading {
   to {
     text-shadow: 10px 0 70px #b5179e;
     color: #b5179e;
