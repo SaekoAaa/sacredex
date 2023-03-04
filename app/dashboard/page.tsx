@@ -1,7 +1,16 @@
 import Link from "next/link";
 const checkPage = () => {
   return (
-    <main className="pages">
+    <section className="pages">
+      <h1 className="introduce">
+        <span className="i1">В</span>
+        <span className="i1">в</span>
+        <span className="i1">е</span>
+        <span className="i1">д</span>
+        <span className="i1">е</span>
+        <span className="i1">н</span>
+        <span className="i1">и</span>
+        <span className="i1">е</span></h1>
       <h1>Ссылки</h1>
       <p>Tproger</p>
       <Link
@@ -40,7 +49,7 @@ const checkPage = () => {
       >
         Сложность алгоритмов. Big O. Основы.
       </Link>
-    </main>
+    </section>
   );
 };
 export default checkPage;

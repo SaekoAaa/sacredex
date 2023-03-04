@@ -12,8 +12,8 @@ const Header = () => {
           </span>
           </Link>
           <Link className="nav-section" style={{flexGrow: 1}} href="/dashboard"><span><div className='navtxt'>Изучение</div></span></Link>
-          <Link className="nav-section" style={{flexGrow: 1}} href="/dashboard"><span><div className='navtxt'>Галерея</div></span></Link>
-          <Link className="nav-section" style={{flexGrow: 1}} href="/dashboard"><span><div className='navtxt'>Отзывы</div></span></Link>
+          <Link className="nav-section" style={{flexGrow: 1}} href="/gallery"><span><div className='navtxt'>Галерея</div></span></Link>
+          <Link className="nav-section" style={{flexGrow: 1}} href="/about"><span><div className='navtxt'>О нас</div></span></Link>
     </div>
   );
 }

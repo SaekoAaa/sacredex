@@ -1,6 +1,7 @@
 import './globals.css'
 import Footer from './footer'
 import Header from './header'
+
 export default function RootLayout({
   children,
 }: {
@@ -10,12 +11,11 @@ export default function RootLayout({
     <html lang="en">
       <head />
       <body>
-      <section>
-      <Header />
+        <div className='bgbl'></div>
+        <Header />
         {children}
         <Footer />
-        </section>
-        </body>
+      </body>
     </html>
   )
 }

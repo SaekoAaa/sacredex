@@ -7,7 +7,7 @@ export default function DashboardLayout({
     return (
         <div>
         <List />
-        <div className="contentbox">{children}</div>
+        <section className="contentbox">{children}</section>
         </div>
     )
   }
